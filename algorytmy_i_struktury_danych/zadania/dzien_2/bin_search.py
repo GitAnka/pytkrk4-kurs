@@ -1,0 +1,3 @@
+"""
+    implementacja wyszukiwania binarnego
+"""
