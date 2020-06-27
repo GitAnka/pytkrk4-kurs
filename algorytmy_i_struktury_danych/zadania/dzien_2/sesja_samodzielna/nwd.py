@@ -3,7 +3,7 @@
 """
 
 
-def nwd(a, b):  # nwd(15, 15)
+def nwd(a, b):  # 6, 6 -> 6
     if a == b:
         return a
     if a > b:
@@ -11,6 +11,7 @@ def nwd(a, b):  # nwd(15, 15)
     elif b > a:
         b = b-a
 
-    return nwd(a, b)
+    return nwd(a, b)  # 6, 6
+
 
 print(nwd(36, 27))
